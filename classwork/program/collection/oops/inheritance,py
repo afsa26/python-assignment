@@ -1,0 +1,13 @@
+class person:
+     def test(): 
+        print("This is test function")
+     def demo():
+        print("this is demo method")
+class Myclass(person):
+    def MyFunc():
+        print("This is Myclass")
+
+Myclass()
+Myclass.test()
+Myclass.demo()
+Myclass.MyFunc()

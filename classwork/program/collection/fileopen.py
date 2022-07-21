@@ -1,0 +1,16 @@
+file=open("demo.txt",'w')
+file.write("this is python class")
+file.write("this is advance topic")
+file.close()
+file=open("demo.txt",'r')
+print (file.read())
+a=file.tell()
+a=file.seek(2,0)
+print(a)
+file.close()
+
+
+file=open("demo.txt",a)
+file.write("\nHave a good day!")
+file.write("\n Have a nice day")
+file.close()
